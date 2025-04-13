@@ -2,7 +2,7 @@
 
 Submitted by: **Md Rafi**
 
-This web app: ** NYC COFFEE SHOPS**
+This web app: **NYC COFFEE SHOPS**
 
 Time spent: **5** hours spent in total
 
