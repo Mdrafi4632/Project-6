@@ -1,8 +1,8 @@
-# Web Development Project 6 - *NYC COFFEE SHOPS*
+# Web Development Project 6 - *Data Dashboard Part 1*
 
 Submitted by: **Md Rafi**
 
-This web app: **insert description**
+This web app: ** NYC COFFEE SHOPS**
 
 Time spent: **5** hours spent in total
 
