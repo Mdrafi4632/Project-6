@@ -1,30 +1,30 @@
-# Web Development Project 6 - *Name of App Here*
+# Web Development Project 6 - *NYC COFFEE SHOPS*
 
-Submitted by: **Your Name Here**
+Submitted by: **Md Rafi**
 
 This web app: **insert description**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **Clicking on an item in the list view displays more details about it**
+- [x] **Clicking on an item in the list view displays more details about it**
   - Clicking on an item in the dashboard list navigates to a detail view for that item
   - Detail view includes extra information about the item not included in the dashboard view
   - The same sidebar is displayed in detail view as in dashboard view
   - *To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.*
-- [ ] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
+- [x] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
   -  *To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.*
-- [ ] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+- [x] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
   - At least two charts should be incorporated into the dashboard view of the site
   - Each chart should describe a different aspect of the dataset
 
 
 The following **optional** features are implemented:
 
-- [ ] The site’s customized dashboard contains more content that explains what is interesting about the data 
+- [x] The site’s customized dashboard contains more content that explains what is interesting about the data 
   - e.g., an additional description, graph annotation, suggestion for which filters to use, or an additional page that explains more about the data
 - [ ] The site allows users to toggle between different data visualizations
   - User should be able to use some mechanism to toggle between displaying and hiding visualizations 
