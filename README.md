@@ -49,7 +49,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+While building the app, one of the main challenges was working with the public API data. The dataset had missing or inconsistent values for some fields (such as missing phone numbers, grades, or zip codes), so I had to add extra checks and formatting to handle those cases smoothly. Another challenge was organizing the dashboard layout to make it clean and user-friendly. Especially when displaying multiple charts and a large list of coffee shops, it was tricky at first to balance visual space without making the page look too crowded. Implementing the interactive features, like the search functionality, grade filters, detail pages, and toggling charts, also required careful state management to ensure everything updated dynamically and correctly. Overall, it was a great learning experience in managing real-world data, improving UI/UX, and making the site more interactive with React and Recharts!
 
 ## License
 
