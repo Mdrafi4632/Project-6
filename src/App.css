@@ -1,0 +1,198 @@
+/* App.css */
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f0eb; /* soft coffee cream color */
+  background-image: url('https://www.transparenttextures.com/patterns/white-wall-3.png');
+  background-repeat: repeat;
+  background-size: auto;
+  color: #333;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.search-bar input {
+  padding: 0.5rem 1rem;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+li {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-3px);
+}
+
+strong {
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.address {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Add to App.css */
+.score-table {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.score-table h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+td {
+  background-color: #fff;
+}
+
+
+.summary-stats {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.summary-stats p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.filter-bar {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.filter-bar select {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.done-button {
+  background-color: #f0f0f0; /* Light gray */
+  color: #333; /* Dark text */
+  border: 1px solid #ccc; /* Soft gray border */
+  padding: 0.4rem 0.5rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.done-button:hover {
+  background-color: #ffffff; /* Slightly darker on hover */
+}
+
+.back-button {
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #ddd;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.small-note {
+  font-size: 0.9rem;
+  color: #777;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.chart-container {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.charts-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem; /* More gap for a clean look */
+  flex-wrap: nowrap; /* ❗ Force side-by-side (no stacking even on smaller screens) */
+  margin: 3rem 0;
+}
+
+.chart-container {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px; /* Fix width to align perfectly */
+  flex-shrink: 0; /* Prevent charts from squishing */
+}
